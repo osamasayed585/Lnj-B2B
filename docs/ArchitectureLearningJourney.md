@@ -1,4 +1,7 @@
 
+![image](https://github.com/osamasayed585/Lnj-Merchants-App/assets/68209547/f2eb3994-2dea-4462-a1be-674ad377ac75)
+
+
 ## Built With 🛠
 
 - [Kotlin](https://kotlinlang.org/) - First class and official programming language for Android
