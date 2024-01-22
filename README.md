@@ -45,15 +45,7 @@ The app was designed using [Material 2 guidelines](https://m2.material.io/). Lea
 obtain the design files in the [Lnj Merchants App Material 2 Case Study](https://www.figma.com/file/IN2kItj0Uecjwguriit22U/LNJ---Merchant-App?type=design&mode=design&t=5RMadKxPufCaTTfp-1)).
 The Screens and UI elements are built entirely using [Layouts in Views](https://developer.android.com/develop/ui/views/layout/declaring-layout). 
 
-The app has two themes: 
-
-- Dynamic color - uses colors based on the [user's current color theme](https://material.io/blog/announcing-material-you) (if supported)
-- Default theme - uses predefined colors when dynamic color is not supported
-
-Each theme also supports dark mode. 
-
-The app uses adaptive layouts to
-[support different screen sizes](https://developer.android.com/guide/topics/large-screens/support-different-screen-sizes).
+The app has a single-light mode theme
 
 Find out more about the [UI architecture here](docs/ArchitectureLearningJourney.md#ui-layer).
 
@@ -90,27 +82,3 @@ View-Model)***](https://developer.android.com/jetpack/docs/guide#recommended-app
 ![](docs/images/AndroidTemplate-CleanArchitecture.png)
 
 ![](docs/images/mvvm.webp)
-
-## Tasks are ready for testing (Done)
-
-- 21/8/2023
-- home screen finished, still waiting APIs
-
-## current task
-
-- work on driver app 2
-- work on b2b app (Alaa's issues) 3
-- meeting with Zaynab (product screen) 30m
-- remaining 2,5 h
-
-## I have to-do
-
-- Gradle version catalog
-- Design the Login screen
-
-## needs from Zaynab (backend)
-
-## needs from David (designer)
-
-- check on status of user when make an order in the mainBasket (David)
-
