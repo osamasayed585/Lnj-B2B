@@ -13,14 +13,14 @@ Lnj Merchants App
 
 **Lnj Merchants App** is a revolutionary B2B e-commerce platform connecting wholesalers and distributors with retailers. It simplifies the buying and selling journey, ensuring an effortless, efficient, and cost-effective procurement process.
 
-#### Smart Comparison
+#### Smart Comparison [Enabled] ✅
 - Users can select products without initially viewing prices.
 - Confirm selected items in the temp cart, allowing the system to aggregate and present personalized deals.
 #### Normal Flow [Disabled] 🚫
 - Enables users to choose suppliers and products with predefined prices, adding them to the main cart.
 #### Companies Flow [Disabled] 🚫
 - Allows users to select a specific company, choose products with specified prices, and add them to the main cart.
-#### Side Menu:
+#### Side Menu [Enabled] ✅
 - The Lnj Merchants App provides a user-friendly side menu, offering easy access to essential features such as order history, offers, wallet, notifications, settings, and contact options. Navigate seamlessly through these functionalities to enhance your overall B2B e-commerce experience. Focus on smart purchasing decisions and efficient transactions with the Lnj Merchants App.
 
 ## Screenshots
