@@ -18,12 +18,44 @@ Lnj Merchants App
 
 # Development Environment
 
-**Lnj Merchants App** uses the Gradle build system and can be imported directly into Android Studio (make sure you are using the Android Studio Hedgehog | 2023.1.1 Patch 1 [here](https://developer.android.com/studio/archive)). 
+**Lnj Merchants App** uses the Gradle build system and can be imported directly into Android Studio, ensure you are using 
+- Android Studio Hedgehog | 2023.1.1 Patch 1 [here](https://developer.android.com/studio/archive) 
+- Kotlin Version: 1.9.22
+- Android Gradle Plugin Version: 8.2
 
 Change the run configuration to `app`.
 
-![image](docs/images/configuration_to_app.jpg)
+![image](docs/images/configuration_to_app.PNG)
 
+Once you're up and running, you can refer to the learning journeys below to get a better
+understanding of which libraries and tools are being used, the reasoning behind the approaches to
+UI, architecture, and more, and how all of these different pieces of the project fit
+together to create a complete app.
+
+# Architecture
+
+The **Lnj Merchants** app follows the
+[official architecture guidance](https://developer.android.com/topic/architecture) 
+and is described in detail in the
+[architecture learning journey](docs/ArchitectureLearningJourney.md).
+
+
+# UI
+The app was designed using [Material 2 guidelines](https://m2.material.io/). Learn more about the design process and 
+obtain the design files in the [Lnj Merchants App Material 2 Case Study](https://www.figma.com/file/IN2kItj0Uecjwguriit22U/LNJ---Merchant-App?type=design&mode=design&t=5RMadKxPufCaTTfp-1)).
+The Screens and UI elements are built entirely using [Layouts in Views](https://developer.android.com/develop/ui/views/layout/declaring-layout). 
+
+The app has two themes: 
+
+- Dynamic color - uses colors based on the [user's current color theme](https://material.io/blog/announcing-material-you) (if supported)
+- Default theme - uses predefined colors when dynamic color is not supported
+
+Each theme also supports dark mode. 
+
+The app uses adaptive layouts to
+[support different screen sizes](https://developer.android.com/guide/topics/large-screens/support-different-screen-sizes).
+
+Find out more about the [UI architecture here](docs/ArchitectureLearningJourney.md#ui-layer).
 
 ## Built With 🛠
 
