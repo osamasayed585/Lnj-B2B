@@ -16,6 +16,13 @@ Lnj Merchants App
 
 ![Screenshot showing Home screen, Smart screen, Cart screen and Product screen](docs/images/screenshot.jpg "Screenshot showing Home screen, Smart screen, Cart screen and Product screen")
 
+# Development Environment
+
+**Lnj Merchants App** uses the Gradle build system and can be imported directly into Android Studio (make sure you are using the Android Studio Hedgehog | 2023.1.1 Patch 1 [here](https://developer.android.com/studio/archive)). 
+
+Change the run configuration to `app`.
+
+![image](docs/images/configuration_to_app.jpg)
 
 
 ## Built With 🛠
@@ -38,7 +45,7 @@ Lnj Merchants App
       dependency injection in your project.
         - [Retrofit](https://square.github.io/retrofit/) - Is a type-safe REST client for Android
           which
-          aims to make it easier to consume RESTFul web services.
+          aims to make it easier to consume RESTFUL web services.
     - [Glide](https://bumptech.github.io/glide/) - An image loading and caching library for Android.
       <br />
 
