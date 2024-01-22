@@ -7,7 +7,7 @@
 Lnj Merchants App
 ==================
 
-**Lnj Merchants App Repository is an ongoing project,🚧 Look how this app was designed and built in the [design case study](https://goo.gle/nia-figma](https://www.figma.com/file/IN2kItj0Uecjwguriit22U/LNJ---Merchant-App?type=design&mode=design&t=5RMadKxPufCaTTfp-1)), and [architecture learning journey](docs/ArchitectureLearningJourney.md).**
+**Lnj Merchants App Repository is an ongoing project,🚧 Look how this app was designed and built in the [design case study](https://goo.gle/nia-figma](https://www.figma.com/file/IN2kItj0Uecjwguriit22U/LNJ---Merchant-App?type=design&mode=design&t=5RMadKxPufCaTTfp-1)), and [architecture learning journey](docs/ArchitectureLearningJourney).**
 
 # Features
 
@@ -48,7 +48,7 @@ together to create a complete app.
 The **Lnj Merchants** app follows the
 [official architecture guidance](https://developer.android.com/topic/architecture) 
 and is described in detail in the
-[architecture learning journey](docs/ArchitectureLearningJourney.md).
+[architecture learning journey](docs/ArchitectureLearningJourney).
 
 
 # UI
