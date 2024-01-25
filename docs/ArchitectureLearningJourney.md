@@ -1,6 +1,18 @@
-## Architecture
-Lnj Merchants App follows Google's [official architecture guidance.](https://developer.android.com/topic/architecture)
+# Architecture Journey
+
+In this journey, you will look at the Lnj Merchants app architecture: its layers, key classes, and the interactions between them.
+
+## Goals and requirements
+The goals for the app architecture are:
+
+*   Follow the [official architecture guidance](https://developer.android.com/jetpack/guide) as closely as possible.
+*   Easy for developers to understand, nothing too experimental.
+*   Support multiple developers working on the same codebase.
+*   Minimize build times.
+
+## Architecture Overview
+
+The app architecture has three layers: a [data layer](https://developer.android.com/jetpack/guide/data-layer), a [domain layer](https://developer.android.com/jetpack/guide/domain-layer), and a [UI layer](https://developer.android.com/jetpack/guide/ui-layer).
 
 ![image](https://github.com/osamasayed585/Lnj-Merchants-App/assets/68209547/f2eb3994-2dea-4462-a1be-674ad377ac75)
 
-Lnj Merchants App was built with a Guide to app architecture, so it would be a great sample to show how the architecture works in real-world projects.
