@@ -75,3 +75,17 @@ Here's what's happening in each step. The easiest way to find the associated cod
   </tr>
 </table>
 
+## UI Layer
+
+The [UI layer](https://developer.android.com/topic/architecture/ui-layer) comprises:
+
+
+
+*   UI elements built using XML (View System)
+*   [Android ViewModels](https://developer.android.com/topic/libraries/architecture/viewmodel)
+
+The ViewModels receive streams of data from use cases and repositories and transform them into UI state. The UI elements reflect this state, and provide ways for the user to interact with the app. These interactions are passed as events to the ViewModel where they are processed.
+
+
+![Diagram showing the UI layer architecture](docs/images/architecture-4-ui-layer.jpeg "Diagram showing the UI layer architecture")
+
