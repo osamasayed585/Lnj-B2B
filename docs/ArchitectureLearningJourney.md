@@ -75,9 +75,3 @@ Here's what's happening in each step. The easiest way to find the associated cod
   </tr>
 </table>
 
-## Data layer
-
-The data layer is implemented as a business logic. It is the source of truth for all data in the app.
-
-
-
