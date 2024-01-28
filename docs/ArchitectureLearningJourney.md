@@ -89,3 +89,30 @@ The ViewModels receive streams of data from use cases and repositories and trans
 
 ![Diagram showing the UI layer architecture](docs/images/architecture-4-ui-layer.PNG)
 
+### Modeling UI state
+
+UI state is modeled as a sealed hierarchy using interfaces and immutable data classes. State objects are only ever emitted through the transformation of data streams. This approach ensures that:
+
+*   The UI state always represents the underlying app data - the app data is the source-of-truth.
+*   The UI elements handle all possible states.
+
+**Example: sliders on Home screen**
+
+The sliders (a list) of <code>String</code> resources on the Home screen are modeled using `ViewState`. This is a sealed class which creates a hierarchy of two possible states:
+
+*   `Loading` indicates that the data is loading
+*   `Success` indicates that the data was loaded successfully. The Success state contains the list of news resources.
+* `NetworkError` indicates that there is a network error
+* `Error` indicates that there is an error in parsing
+
+The `slider` is passed to the `HomeFragmet`, which handles both of these states.
+
+
+### Transforming streams into UI state
+
+ViewModels receive streams of data as cold [flows](https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines.flow/-flow/index.html) from one or more use cases or repositories. These are [combined](https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines.flow/combine.html) together, or simply [mapped](https://kotlinlang.org/api/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines.flow/map.html), to produce a single flow of UI state. This single flow is then converted to a hot flow using [stateIn](https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines.flow/state-in.html). The conversion to a state flow enables UI elements to read the last known state from the flow.
+
+
+### Processing user interactions
+
+User actions are communicated from UI elements to ViewModels using regular method invocations. These methods are passed to the UI elements as lambda expressions.
