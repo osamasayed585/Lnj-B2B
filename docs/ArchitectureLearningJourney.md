@@ -14,5 +14,4 @@ The goals for the app architecture are:
 
 The app architecture has three layers: a [data layer](https://developer.android.com/jetpack/guide/data-layer), a [domain layer](https://developer.android.com/jetpack/guide/domain-layer), and a [UI layer](https://developer.android.com/jetpack/guide/ui-layer).
 
-![image](docs/images/whole_architecture.png)
-
+![whole architecture](https://github.com/osamasayed585/Lnj-Merchants-App/assets/68209547/117a1cd6-9ac9-454a-95ab-b495fae92694)
