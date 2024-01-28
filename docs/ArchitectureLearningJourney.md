@@ -87,7 +87,8 @@ The [UI layer](https://developer.android.com/topic/architecture/ui-layer) compri
 The ViewModels receive streams of data from use cases and repositories and transform them into UI state. The UI elements reflect this state, and provide ways for the user to interact with the app. These interactions are passed as events to the ViewModel where they are processed.
 
 
-[Diagram showing the UI layer architecture](docs/images/architecture-4-ui-layer.PNG)
+![architecture-4-ui-layer](https://github.com/osamasayed585/Lnj-Merchants-App/assets/68209547/39e34b69-de70-48f1-8044-c8c78347a615)
+
 
 ### Modeling UI state
 
