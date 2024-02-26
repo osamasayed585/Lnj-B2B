@@ -14,7 +14,7 @@ The ViewModels receive streams of data from use cases and repositories and trans
 
 The `TempCartFragment` manages temporary shopping cart functionality in the Android app.
 
-## Key Features
+## Main Component
 
 - **ViewModels:**
   - `sharedViewModel`: Shared view model for inter-fragment communication.
