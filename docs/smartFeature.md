@@ -67,7 +67,7 @@ The `TempCartViewModel` is responsible for managing data and business logic rela
 
 ## Main Component
 
-- **LiveData:**
+- **StateFlows:**
   - `industries`: Provides information about available sectors.
   - `sectorDetail`: Represents details of a selected sector.
   - `addDealToCart`: Emits the status of adding a deal to the cart.
