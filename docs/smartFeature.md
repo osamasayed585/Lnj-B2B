@@ -60,3 +60,55 @@ The `TempCartFragment` manages temporary shopping cart functionality in the Andr
 8. **Resource Handling:**
    - Display deals, products, and comparing tables based on data availability.
 
+
+# TempCartViewModel
+
+The `TempCartViewModel` is responsible for managing data and business logic related to the temporary shopping cart in the Android app.
+
+## Main Component
+
+- **LiveData:**
+  - `industries`: Provides information about available sectors.
+  - `sectorDetail`: Represents details of a selected sector.
+  - `addDealToCart`: Emits the status of adding a deal to the cart.
+  - `deleteProduct`: Emits the status of deleting a product from the cart.
+  - `updateProduct`: Emits the status of updating a product in the cart.
+  - `currentDisplayMode`: Represents the current display mode (e.g., HORIZONTAL, VERTICAL).
+
+## Usage
+
+1. **Initialization:**
+   - Instantiate the `TempCartViewModel` using Dagger-Hilt injection.
+
+2. **LiveData Observing:**
+   - Observe LiveData to receive updates on industries, sector details, and cart operations.
+
+3. **Display Mode Handling:**
+   - Use `setDisplayMode` to set the display mode for deals and products.
+
+4. **Adding a Deal to Cart:**
+   - Call `requestAddDealToCart` to add a deal to the temporary cart.
+
+5. **Refreshing Cart:**
+   - Use `refreshTempCart` to update the temporary cart details for a specific sector.
+
+6. **Deleting/Updating Products:**
+   - Call `requestDeleteProduct` and `requestUpdateProduct` to handle product operations.
+
+7. **Requesting Sector Details and Confirmation:**
+   - Use `requestSectorDetail` and `requestSectorConfirmation` to fetch sector details and confirmations.
+
+8. **Requesting Industries:**
+   - Call `requestIndustries` to retrieve a list of available industries.
+
+## Miscellaneous
+
+- **Error Handling:**
+  - The ViewModel handles loading states and error responses gracefully.
+
+- **Coroutines:**
+  - Utilizes coroutines for asynchronous operations.
+
+- **Dependencies:**
+  - Utilizes various use cases for industry retrieval, cart operations, and sector details.
+
