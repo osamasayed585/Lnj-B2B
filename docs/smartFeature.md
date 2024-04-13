@@ -8,7 +8,9 @@ The [UI layer](https://developer.android.com/topic/architecture/ui-layer) compri
 
 The ViewModels receive streams of data from use cases and repositories and transform them into UI state. The UI elements reflect this state, and provide ways for the user to interact with the app. These interactions are passed as events to the ViewModel where they are processed.
 
-![architecture-1-ui-layer](https://github.com/osamasayed585/Lnj/assets/68209547/359af80d-6c49-47fc-9513-7389bd919b14)
+![xmlpng](https://github.com/osamasayed585/Lnj-B2B/assets/68209547/762c8804-a82f-45e8-ae36-b7a3a5ad1f18)
+
+
 
 # TempCartFragment
 
