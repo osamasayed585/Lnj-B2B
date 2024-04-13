@@ -61,28 +61,16 @@ The app has a single-light mode theme
 Find out more about the [UI architecture here](docs/ArchitectureLearningJourney.md#ui-layer).
 
 ## Built With 🛠
+- **Kotlin** and [**Kotlin DSL**](https://docs.gradle.org/current/userguide/kotlin_dsl.html)
+- [**MVVM architecture pattern with multiple modules**](https://developer.android.com/topic/architecture) for clear separation of concerns and enhanced maintainability
+- [**Dependency injection with Hilt**](https://developer.android.com/training/dependency-injection/hilt-android) for efficient dependency injection.
+- [**Retrofit**](https://square.github.io/retrofit/) for seamless networking
+- [**Kotlin coroutines**](https://developer.android.com/kotlin/coroutines) for asynchronous programming
+- [**StateFlow and SharedFlow**](https://developer.android.com/kotlin/flow/stateflow-and-sharedflow) for streamlined state management
+- [**Navigation component**](https://developer.android.com/guide/navigation) for smooth transitions between screens
+- [**Glide**](https://github.com/bumptech/glide) for efficient image loading
+- [**DataStore**](https://developer.android.com/topic/libraries/architecture/datastore) for efficient data storage and retrieval in Android applications.
 
-- [Kotlin](https://kotlinlang.org/) - First class and official programming language for Android
-  development.
-- [Coroutines](https://kotlinlang.org/docs/reference/coroutines-overview.html) - For asynchronous
-  and more..
-- [Android Architecture Components](https://developer.android.com/topic/libraries/architecture) -
-  Collection of libraries that help you design robust, testable, and maintainable apps.
-    - [Flows](https://developer.android.com/kotlin/flow) - A flow is a type that can emit multiple
-      values sequentially, as opposed to suspending functions that return only a single value.
-    - [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel) - Stores
-      UI-related data that isn't destroyed on UI changes.
-    - [Jetpack Navigation](https://developer.android.com/guide/navigation) - Navigation refers to
-      the interactions that allow users to navigate across, into, and back out from the different
-      pieces of content within your app
-    - [Hilt](https://developer.android.com/training/dependency-injection/hilt-android) - Hilt is a
-      dependency injection library for Android that reduces the boilerplate of doing manual
-      dependency injection in your project.
-        - [Retrofit](https://square.github.io/retrofit/) - Is a type-safe REST client for Android
-          which
-          aims to make it easier to consume RESTFUL web services.
-    - [Glide](https://bumptech.github.io/glide/) - An image loading and caching library for Android.
-      <br />
 
 ## Architecture 🗼
 
